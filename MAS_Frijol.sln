@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.37012.4 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "MAS_Frijol", "MAS_Frijol.dwproj", "{19901562-7645-2C6F-5404-7C99ACD7B0E7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{19901562-7645-2C6F-5404-7C99ACD7B0E7}.Development|Default.ActiveCfg = Development
+		{19901562-7645-2C6F-5404-7C99ACD7B0E7}.Development|Default.Build.0 = Development
+		{19901562-7645-2C6F-5404-7C99ACD7B0E7}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {B33E0761-2209-4933-849C-AED127C2FCA9}
+	EndGlobalSection
+EndGlobal

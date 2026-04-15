@@ -1,0 +1,138 @@
+﻿<DataSourceView xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="1b460e66-9964-4245-9bcf-e96da6e8d764" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Cubo_Clientes</ID>
+  <Name>Cubo_Clientes</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
+      <Value>_ALL_TABLES_</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:NameMatchingCriteria</Name>
+      <Value>1</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:SchemaRestriction</Name>
+      <Value></Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:RetrieveRelationships</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
+      <Value>
+        <Layouts xmlns="">
+          <Diagram>
+            <Name>_ALL_TABLES_</Name>
+            <DiagramLayout />
+            <ShowRelationshipNames>False</ShowRelationshipNames>
+            <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
+            <DiagramViewPortLeft>0</DiagramViewPortLeft>
+            <DiagramViewPortTop>0</DiagramViewPortTop>
+            <DiagramBoundingLeft>0</DiagramBoundingLeft>
+            <DiagramBoundingTop>0</DiagramBoundingTop>
+            <DiagramZoom>100</DiagramZoom>
+          </Diagram>
+        </Layouts>
+      </Value>
+    </Annotation>
+  </Annotations>
+  <DataSourceID>Dw Frijol</DataSourceID>
+  <Schema>
+    <xs:schema id="Cubo_Clientes" xmlns="" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata" xmlns:msprop="urn:schemas-microsoft-com:xml-msprop">
+      <xs:element name="Cubo_Clientes" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="6fae1a8b-cdbe-40d9-8b94-342071f9a596">
+        <xs:complexType>
+          <xs:choice minOccurs="0" maxOccurs="unbounded">
+            <xs:element name="dbo_Dw_Clientes" msprop:DbTableName="Dw_Clientes" msprop:FriendlyName="Dw_Clientes" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="44ae281e-18b8-4838-9b3c-ed3f44280ee4">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="CodigoCliente" msprop:FriendlyName="CodigoCliente" msprop:DbColumnName="CodigoCliente" msprop:design-time-name="7edaecda-4e69-4d29-9a51-cbe198b876c9" type="xs:int" />
+                  <xs:element name="NombreCliente" msprop:FriendlyName="NombreCliente" msprop:DbColumnName="NombreCliente" msprop:design-time-name="98055a7c-4b6b-4b9a-bbf4-d05338f43b8b">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="200" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="CantidadVentas" msprop:FriendlyName="CantidadVentas" msprop:DbColumnName="CantidadVentas" msprop:design-time-name="b0565349-778f-4bfa-84a0-19ab1d29b829" type="xs:int" />
+                  <xs:element name="Ciudad" msprop:FriendlyName="Ciudad" msprop:DbColumnName="Ciudad" msprop:design-time-name="6da22eb4-22b9-467f-8049-ba2162f10870">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="80" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Hechos_ClientesRFM" msprop:DbTableName="Hechos_ClientesRFM" msprop:FriendlyName="Hechos_ClientesRFM" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="64c0f062-0298-4d5c-99f7-d02fac005bc3">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Codigo" msdata:ReadOnly="true" msdata:AutoIncrement="true" msprop:FriendlyName="Codigo" msprop:DbColumnName="Codigo" msprop:design-time-name="bcdcf108-c4d3-4fe3-a3d1-ede78ea8d2cd" type="xs:int" />
+                  <xs:element name="CodigoCliente" msprop:FriendlyName="CodigoCliente" msprop:DbColumnName="CodigoCliente" msprop:design-time-name="55c187aa-b9f0-4a5c-b1b9-762e2e1aee8b" type="xs:int" />
+                  <xs:element name="CodigoTiempo" msprop:FriendlyName="CodigoTiempo" msprop:DbColumnName="CodigoTiempo" msprop:design-time-name="6ed59006-daaf-4aee-9f23-abda83c71c2c" type="xs:int" />
+                  <xs:element name="Recency" msprop:FriendlyName="Recency" msprop:DbColumnName="Recency" msprop:design-time-name="c3c3a2f4-b12b-40ae-bb8e-bee3b64697f2" type="xs:int" />
+                  <xs:element name="Frequency" msprop:FriendlyName="Frequency" msprop:DbColumnName="Frequency" msprop:design-time-name="8b2eda39-1bb6-4a7a-b959-8d6a82c3893a" type="xs:int" />
+                  <xs:element name="Monetary" msprop:FriendlyName="Monetary" msprop:DbColumnName="Monetary" msprop:design-time-name="13f86147-98fa-4687-930e-3671ec5c63b7" type="xs:decimal" />
+                  <xs:element name="PuntajeR" msprop:FriendlyName="PuntajeR" msprop:DbColumnName="PuntajeR" msprop:design-time-name="e8d6a5ac-d576-4db3-887c-ea47bde98ec6" type="xs:int" />
+                  <xs:element name="PuntajeF" msprop:FriendlyName="PuntajeF" msprop:DbColumnName="PuntajeF" msprop:design-time-name="ea9472f3-a43f-4dec-a816-1dcb23ea559d" type="xs:int" />
+                  <xs:element name="PuntajeM" msprop:FriendlyName="PuntajeM" msprop:DbColumnName="PuntajeM" msprop:design-time-name="73fde03e-d68d-48a7-bb35-1498b1ab3aad" type="xs:int" />
+                  <xs:element name="SegmentoCliente" msprop:FriendlyName="SegmentoCliente" msprop:DbColumnName="SegmentoCliente" msprop:design-time-name="fcdafa51-486b-449b-88fd-d1b5d7cd280b">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="30" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Dw_Tiempo" msprop:DbTableName="Dw_Tiempo" msprop:FriendlyName="Dw_Tiempo" msprop:TableType="Table" msprop:DbSchemaName="dbo" msprop:design-time-name="f2d8adc5-70df-4e80-971f-86ac9aea3bd9">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="CodigoTiempo" msprop:FriendlyName="CodigoTiempo" msprop:DbColumnName="CodigoTiempo" msprop:design-time-name="064500ab-1491-4d9f-8f9f-6a1c59fd3d8f" type="xs:int" />
+                  <xs:element name="Anio" msprop:FriendlyName="Anio" msprop:DbColumnName="Anio" msprop:design-time-name="e137e113-15a3-49ea-9546-c6ab0a8aab8b" type="xs:int" />
+                  <xs:element name="Mes" msprop:FriendlyName="Mes" msprop:DbColumnName="Mes" msprop:design-time-name="f14b5ed1-8f36-4d3c-adf5-5167759de807" type="xs:int" />
+                  <xs:element name="NombreMes" msprop:FriendlyName="NombreMes" msprop:DbColumnName="NombreMes" msprop:design-time-name="62238820-12be-490c-88db-98b14ac0b7c6">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="15" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Trimestre" msprop:FriendlyName="Trimestre" msprop:DbColumnName="Trimestre" msprop:design-time-name="1f32604b-216f-4694-8a3e-53f728cafcd9" type="xs:int" />
+                  <xs:element name="Semestre" msprop:FriendlyName="Semestre" msprop:DbColumnName="Semestre" msprop:design-time-name="e221c255-ddf6-43ce-b76c-541fb8da4d57" type="xs:int" />
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+          </xs:choice>
+        </xs:complexType>
+        <xs:unique name="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Dw_Clientes" />
+          <xs:field xpath="CodigoCliente" />
+        </xs:unique>
+        <xs:unique name="dbo_Hechos_ClientesRFM_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Hechos_ClientesRFM" />
+          <xs:field xpath="Codigo" />
+        </xs:unique>
+        <xs:unique name="dbo_Dw_Tiempo_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Dw_Tiempo" />
+          <xs:field xpath="CodigoTiempo" />
+        </xs:unique>
+      </xs:element>
+      <xs:annotation>
+        <xs:appinfo>
+          <msdata:Relationship name="Hechos_ClientesRFM-Dw_Clientes" msdata:parent="dbo_Dw_Clientes" msdata:child="dbo_Hechos_ClientesRFM" msdata:parentkey="CodigoCliente" msdata:childkey="CodigoCliente" />
+          <msdata:Relationship name="Hechos_ClientesRFM-Dw_Tiempo" msdata:parent="dbo_Dw_Tiempo" msdata:child="dbo_Hechos_ClientesRFM" msdata:parentkey="CodigoTiempo" msdata:childkey="CodigoTiempo" />
+        </xs:appinfo>
+      </xs:annotation>
+    </xs:schema>
+    <Cubo_Clientes xmlns="" />
+  </Schema>
+</DataSourceView>

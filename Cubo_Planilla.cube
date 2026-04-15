@@ -1,0 +1,501 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="54d7eb98-54bc-4eb6-8ae7-11c76f01078f" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Cubo_Planilla</ID>
+  <Name>Cubo_Planilla</Name>
+  <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="24" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-18170" scrolltop="5219" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="43233" y="21352" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dw_ConceptosPago" left="-1225" top="17999" logicalid="12" controlid="1" masterid="0" hint1="0" hint2="0" width="3413" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000550d0000a50a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dw_ConceptosPago" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Hechos_Planilla" left="1144" top="10599" logicalid="13" controlid="2" masterid="0" hint1="0" hint2="0" width="4075" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000eb0f000088130000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Hechos_Planilla" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dw_Instituciones" left="7619" top="11736" logicalid="14" controlid="3" masterid="0" hint1="0" hint2="0" width="3466" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00008a0d0000a50a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dw_Instituciones" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="82" top="15299" logicalid="15" controlid="4" masterid="0" hint1="0" hint2="0" width="2299" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Hechos_Planilla-Dw_ConceptosPago]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="1" destid="2" sourceattachpoint="4" destattachpoint="3" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="481" y="17999" />
+              <point x="481" y="16799" />
+              <point x="2081" y="16799" />
+              <point x="2081" y="15599" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="4919" top="12699" logicalid="16" controlid="5" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Hechos_Planilla-Dw_Instituciones]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="3" destid="2" sourceattachpoint="14" destattachpoint="23" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="7619" y="13098" />
+              <point x="6419" y="13098" />
+              <point x="6419" y="13099" />
+              <point x="5219" y="13099" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dw_Empleados" left="-4643" top="11101" logicalid="17" controlid="6" masterid="0" hint1="0" hint2="0" width="3387" height="3995" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e00003b0d00009b0f0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dw_Empleados" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="-1556" top="12699" logicalid="18" controlid="7" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Hechos_Planilla-Dw_Empleados]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="2" sourceattachpoint="17" destattachpoint="22" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="-1256" y="13098" />
+              <point x="-56" y="13098" />
+              <point x="-56" y="13099" />
+              <point x="1144" y="13099" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dw_CargosEmpleado" left="1461" top="5474" logicalid="19" controlid="8" masterid="0" hint1="0" hint2="0" width="3440" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000700d0000a50a0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dw_CargosEmpleado" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dw_Tiempo" left="4588" top="17999" logicalid="20" controlid="9" masterid="0" hint1="0" hint2="0" width="3000" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dw_Tiempo" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="3431" top="15299" logicalid="21" controlid="10" masterid="0" hint1="0" hint2="0" width="3057" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Hechos_Planilla-Dw_Tiempo]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="9" destid="2" sourceattachpoint="4" destattachpoint="9" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="6088" y="17999" />
+              <point x="6088" y="16799" />
+              <point x="3731" y="16799" />
+              <point x="3731" y="15599" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="2782" top="7700" logicalid="22" controlid="11" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Hechos_Planilla-Dw_CargosEmpleado]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="8" destid="2" sourceattachpoint="5" destattachpoint="6" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="3181" y="8199" />
+              <point x="3181" y="10599" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-18170</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>5219</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-4643</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>5474</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="e69a5928-a5c6-4365-b701-ee70cfae49a4">
+      <ID>Dw Instituciones</ID>
+      <Name>Dw Instituciones</Name>
+      <DimensionID>Dw Instituciones</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="a80844ec-9f8b-4993-b81b-55714bab283d">
+          <AttributeID>Codigo Institucion</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="86b169f4-ff90-43c9-9af9-3ebe0b79a288">
+          <AttributeID>Nombre Institucion</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="5a138c18-c75c-40a2-89f1-82bdf5fadce8">
+          <AttributeID>Tipo Institucion</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="ed20bf2b-8167-4687-a54a-6a47fdcf5759">
+      <ID>Dw Conceptos Pago</ID>
+      <Name>Dw Conceptos Pago</Name>
+      <DimensionID>Dw Conceptos Pago</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="ba8013a6-c79e-41ec-bc5a-3a5c57a3a288">
+          <AttributeID>Codigo Concepto</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="36ca6658-77d3-4a80-96b8-3bdc3bcb37c1">
+          <AttributeID>Nombre Concepto</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bd4dbaf9-9374-4f28-93b6-6e666635208b">
+          <AttributeID>Tipo Concepto</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="64ca9d49-6bd3-4b5a-b692-c1de9c22d989">
+          <AttributeID>Obligatorio</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="b6631381-2663-4277-a45a-e7106eb3cedf">
+      <ID>Dw Empleados</ID>
+      <Name>Dw Empleados</Name>
+      <DimensionID>Dw Empleados</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="6403ae33-cbdc-4c64-9f55-641e54a4f3a5">
+          <AttributeID>Codigo Empleado</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="37e1b4cd-bf10-4f3e-b9d0-6ffc37bc85d8">
+          <AttributeID>Nombre Completo</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="7ee771d8-6704-4003-9896-67a958a412da">
+      <ID>Dw Cargos Empleado</ID>
+      <Name>Dw Cargos Empleado</Name>
+      <DimensionID>Dw Cargos Empleado</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="6febe804-8be2-455d-a297-83bc17ead265">
+          <AttributeID>Codigo Cargo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6793c391-d03a-41a7-b935-4e35ed603539">
+          <AttributeID>Nombre Cargo</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="911aabdc-518c-49fe-b0e2-05e9e42099a1">
+      <ID>Dw Tiempo</ID>
+      <Name>Dw Tiempo</Name>
+      <DimensionID>Dw Tiempo</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="5ff4c9bf-1b2d-45f3-b4fe-d3fe1bd0a1dc">
+          <AttributeID>Codigo Tiempo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="0d351068-2ece-42dd-9d54-9f8c55546aea">
+          <AttributeID>Anio</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="48909064-01d2-4f54-9bcb-f12f1b1c0592">
+          <AttributeID>Mes</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="559cfee8-4a6b-4397-9241-1945a564840e">
+          <AttributeID>Nombre Mes</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="9d1772b3-cb3e-4672-ba7f-99155f1290c9">
+          <AttributeID>Trimestre</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="6e2414e4-ca26-46ce-b8ac-ea95b03017ab">
+          <AttributeID>Semestre</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="9ef81f39-41f4-4bfa-900e-dfd17efdaf5a">
+      <ID>Hechos Planilla</ID>
+      <Name>Hechos Planilla</Name>
+      <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="bed90d82-4532-44de-a785-84855614e71d">
+          <ID>Codigo Cargo Empleado</ID>
+          <Name>Codigo Cargo Empleado</Name>
+          <Source dwd:design-time-name="660fb2a0-1a21-4c4e-a925-f2aec274ec2d">
+            <DataType>Integer</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="5c525ee0-8db6-4a1e-b45f-98789a17aec9">
+              <TableID>dbo_Hechos_Planilla</TableID>
+              <ColumnID>CodigoCargoEmpleado</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="543c0717-962e-4437-8c5a-4091b7a8fd59">
+          <ID>Salario Base</ID>
+          <Name>Salario Base</Name>
+          <Source dwd:design-time-name="aba3e0af-19e4-434a-9ae7-9af57bebe46c">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="de13409b-670c-4913-89ff-7fd512fd79fb">
+              <TableID>dbo_Hechos_Planilla</TableID>
+              <ColumnID>SalarioBase</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="c49d91ec-c41d-426f-9d5b-60370fc23274">
+          <ID>Total Ingresos</ID>
+          <Name>Total Ingresos</Name>
+          <Source dwd:design-time-name="96db5823-6e4c-4f35-808e-911345e9d37d">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="0f6bfcc8-1462-4f52-bd22-732f6eb90702">
+              <TableID>dbo_Hechos_Planilla</TableID>
+              <ColumnID>TotalIngresos</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="adec58d8-2746-401c-83da-217a6632e129">
+          <ID>Total Deducciones</ID>
+          <Name>Total Deducciones</Name>
+          <Source dwd:design-time-name="e2d24641-bb0e-4d8c-9a15-f56a39944a51">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="43b4a044-7096-4d2d-8085-d5bf38068fea">
+              <TableID>dbo_Hechos_Planilla</TableID>
+              <ColumnID>TotalDeducciones</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="c3967acc-5c09-4f04-b681-cf4a70ee5b01">
+          <ID>Salario Neto</ID>
+          <Name>Salario Neto</Name>
+          <Source dwd:design-time-name="0d216787-bbd6-4f7e-99de-9768129049f8">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="b9c461f2-f696-4ce6-ae77-110565806ea3">
+              <TableID>dbo_Hechos_Planilla</TableID>
+              <ColumnID>SalarioNeto</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="ff9ddf00-1c15-46ee-8c29-a2d5efa44d59">
+          <ID>Monto Concepto</ID>
+          <Name>Monto Concepto</Name>
+          <Source dwd:design-time-name="b7eac6f6-33f2-4427-8040-dae5f5b4f7bb">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="6df5a3ad-16c5-4bec-9d5d-4519feb3c6ce">
+              <TableID>dbo_Hechos_Planilla</TableID>
+              <ColumnID>MontoConcepto</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="04bc6a53-2da8-41fd-8873-6081f14d0792">
+          <ID>Recuento Hechos Planilla</ID>
+          <Name>Recuento Hechos Planilla</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="25a944fd-a522-45d9-90fd-949628e1d8b5">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="5d382c08-643f-49cf-b328-cb08c444e54b">
+              <TableID>dbo_Hechos_Planilla</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="7c2d85bb-47f5-4f56-9d71-d16d5b5b0f86">
+          <CubeDimensionID>Dw Instituciones</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="cc5c8baa-a67f-41a6-8119-9e0a71f00cbd">
+              <AttributeID>Codigo Institucion</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="d547cbf1-fdd1-4fa0-bb18-6201b9f45472">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="13b73379-e898-4d86-9ed5-c5c26f28112c">
+                    <TableID>dbo_Hechos_Planilla</TableID>
+                    <ColumnID>CodigoInstitucion</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="0d952e27-cf82-4855-b014-b91341105f2c">
+          <CubeDimensionID>Dw Conceptos Pago</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="fc2b6e86-68ae-443b-bbd6-48f43f861a9d">
+              <AttributeID>Codigo Concepto</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="1469ad42-a00b-4d6b-a016-9926d5115e54">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="7e52988b-0ab8-4459-951b-fbe3f5966fa1">
+                    <TableID>dbo_Hechos_Planilla</TableID>
+                    <ColumnID>CodigoConcepto</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="08e6a9ff-d02f-4903-be44-5a8b09208b2c">
+          <CubeDimensionID>Dw Empleados</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="41c85fdc-5e53-4c85-a154-7eaaddec8a7b">
+              <AttributeID>Codigo Empleado</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="12bbe47d-386e-410e-b02b-1ec59c4d5800">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="3912ffb6-fc94-4e47-aa76-55bc212f7c54">
+                    <TableID>dbo_Hechos_Planilla</TableID>
+                    <ColumnID>CodigoEmpleado</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c346a826-4452-4753-8b04-cf20638e3e09">
+          <CubeDimensionID>Dw Cargos Empleado</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="798b8f1a-caa0-4454-a6b3-c0608c3d093a">
+              <AttributeID>Codigo Cargo</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="af7495ec-5f25-4d46-8acb-ab8fa5353329">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="4546cd40-5f39-46d9-a40c-75a11acc8f8b">
+                    <TableID>dbo_Hechos_Planilla</TableID>
+                    <ColumnID>CodigoCargoEmpleado</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="336853f8-0d10-4c6d-967b-7c2452bdf041">
+          <CubeDimensionID>Dw Tiempo</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="d497052e-2144-429f-b708-d1c0383dcaa8">
+              <AttributeID>Codigo Tiempo</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="3219686e-7098-497b-8768-d08b65d4bfc2">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="04e1c081-34ff-4578-82b2-4cc92ac4a953">
+                    <TableID>dbo_Hechos_Planilla</TableID>
+                    <ColumnID>CodigoTiempo</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="8fa49fab-45ea-441a-8cd2-ed9627092259">
+    <DataSourceViewID>Cubo_Planilla</DataSourceViewID>
+  </Source>
+</Cube>

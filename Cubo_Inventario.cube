@@ -1,0 +1,398 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="b4d0bf72-ac5d-4252-bebd-5233823c76eb" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Cubo_Inventario</ID>
+  <Name>Cubo_Inventario</Name>
+  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <Annotations>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
+      <Value>
+        <dds xmlns="">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="20" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-16741" scrolltop="-2918" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="43233" y="21352" backcolor="16119285" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+            <font>
+              <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
+            </font>
+            <mouseicon>
+              <ddsxmlobjectstreamwrapper binary="6c74000000000000" />
+            </mouseicon>
+          </diagram>
+          <layoutmanager>
+            <ddsxmlobj />
+          </layoutmanager>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Hechos_Inventario" left="3711" top="4702" logicalid="10" controlid="1" masterid="0" hint1="0" hint2="0" width="3281" height="4842" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000d10c0000ea120000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Hechos_Inventario" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dw_Productos" left="-2711" top="5548" logicalid="11" controlid="2" masterid="0" hint1="0" hint2="0" width="4022" height="3149" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b60f00004d0c0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dw_Productos" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="1011" top="6723" logicalid="12" controlid="3" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Hechos_Inventario-Dw_Productos]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="19" destattachpoint="18" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="1311" y="7122" />
+              <point x="2511" y="7122" />
+              <point x="2511" y="7123" />
+              <point x="3711" y="7123" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dw_Categorias" left="3632" top="0" logicalid="13" controlid="4" masterid="0" hint1="0" hint2="0" width="3440" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000700d0000fe080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dw_Categorias" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="4953" top="1803" logicalid="14" controlid="5" masterid="0" hint1="0" hint2="0" width="799" height="3199" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Hechos_Inventario-Dw_Categorias]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="1" sourceattachpoint="5" destattachpoint="4" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="5352" y="2302" />
+              <point x="5352" y="3502" />
+              <point x="5351" y="3502" />
+              <point x="5351" y="4702" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dw_Tiempo" left="3851" top="11944" logicalid="15" controlid="6" masterid="0" hint1="0" hint2="0" width="3000" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000b80b0000f40d0000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dw_Tiempo" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="4952" top="9244" logicalid="16" controlid="7" masterid="0" hint1="0" hint2="0" width="799" height="3200" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Hechos_Inventario-Dw_Tiempo]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="1" sourceattachpoint="4" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="5351" y="11944" />
+              <point x="5351" y="9544" />
+            </connector>
+          </ddscontrol>
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge" tooltip="Dw_UnidadesMedida" left="9392" top="5972" logicalid="17" controlid="8" masterid="0" hint1="0" hint2="0" width="3069" height="2302" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobjectstreaminitwrapper binary="000e0000fd0b0000fe080000" />
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dbo_Dw_UnidadesMedida" vartype="8" />
+              </ddsxmlobj>
+            </layoutobject>
+            <shape groupshapeid="0" groupnode="0" />
+          </ddscontrol>
+          <ddscontrol controlprogid="MSDDS.Polyline.080.1" left="6692" top="6724" logicalid="18" controlid="9" masterid="0" hint1="0" hint2="0" width="3000" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+            <control>
+              <ddsxmlobj>
+                <polyline endtypedst="6" endtypesrc="3" usercolor="1973790" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+              </ddsxmlobj>
+            </control>
+            <layoutobject>
+              <ddsxmlobj>
+                <property name="LogicalObject" value="dataSet.Relations[Hechos_Inventario-Dw_UnidadesMedida]" vartype="8" />
+                <property name="Virtual" value="0" vartype="11" />
+                <property name="VisibleAP" value="0" vartype="3" />
+              </ddsxmlobj>
+            </layoutobject>
+            <connector lineroutestyle="MSDDS.Rectilinear" sourceid="8" destid="1" sourceattachpoint="12" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+              <point x="9392" y="7123" />
+              <point x="6992" y="7123" />
+            </connector>
+          </ddscontrol>
+        </dds>
+      </Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowFriendlyNames</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ShowRelationshipNames</Name>
+      <Value>false</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:UseDiagramDefaultLayout</Name>
+      <Value>true</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortLeft</Name>
+      <Value>-16741</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramViewPortTop</Name>
+      <Value>-2918</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
+      <Value>-2711</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
+      <Value>0</Value>
+    </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
+      <Value>100</Value>
+    </Annotation>
+  </Annotations>
+  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <State>Unprocessed</State>
+  <Dimensions>
+    <Dimension dwd:design-time-name="4e9b578d-230d-4513-bc33-04f8900a04da">
+      <ID>Dw Productos</ID>
+      <Name>Dw Productos</Name>
+      <DimensionID>Dw Productos</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="b3b17de4-4d27-41e6-8949-cb03505ec21b">
+          <AttributeID>Codigo Producto</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1efb8d62-afbb-42ab-ac39-9eba921e2b59">
+          <AttributeID>Nombre Producto</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="52a973a1-e44c-46ce-941a-089668eec4ed">
+          <AttributeID>Precio</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="a2301930-a8f0-4aaa-9bfd-8787761e17a1">
+      <ID>Dw Categorias</ID>
+      <Name>Dw Categorias</Name>
+      <DimensionID>Dw Categorias</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="c32ba465-1d39-41a6-9a01-0b09f8a23cde">
+          <AttributeID>Codigo Categoria</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="49e38b0d-5c8e-4973-b999-5af2a6b29bd2">
+          <AttributeID>Nombre Categoria</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="61bc47b1-ae63-43e5-9396-a97158b0d426">
+      <ID>Dw Tiempo</ID>
+      <Name>Dw Tiempo</Name>
+      <DimensionID>Dw Tiempo</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="57edd9fc-a651-48d6-b977-27bad6c88271">
+          <AttributeID>Codigo Tiempo</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="facfec93-1d64-4fbb-a46c-fc2b7ded4f84">
+          <AttributeID>Anio</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="da7f9e75-de75-4ef0-8549-a95ec093506f">
+          <AttributeID>Mes</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="cf246e8d-24e2-42e7-9f2c-49637c202205">
+          <AttributeID>Nombre Mes</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="1be16810-cf04-43b0-92f2-b9e801cb8c52">
+          <AttributeID>Trimestre</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="bedd0bce-05d8-4546-891b-ff96cc8d6166">
+          <AttributeID>Semestre</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+    <Dimension dwd:design-time-name="5a19a30c-868c-4e20-b71e-980286334cf8">
+      <ID>Dw Unidades Medida</ID>
+      <Name>Dw Unidades Medida</Name>
+      <DimensionID>Dw Unidades Medida</DimensionID>
+      <Attributes>
+        <Attribute dwd:design-time-name="de45b102-9648-4395-9660-f99869974fdc">
+          <AttributeID>Codigo Unidad</AttributeID>
+        </Attribute>
+        <Attribute dwd:design-time-name="34022fb8-bbed-4594-ad9e-5464f939bc57">
+          <AttributeID>Nombre Unidad</AttributeID>
+        </Attribute>
+      </Attributes>
+    </Dimension>
+  </Dimensions>
+  <MeasureGroups>
+    <MeasureGroup dwd:design-time-name="c657e1b7-1225-40e4-b0f4-fb73414e978b">
+      <ID>Hechos Inventario</ID>
+      <Name>Hechos Inventario</Name>
+      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <State>Unprocessed</State>
+      <Measures>
+        <Measure dwd:design-time-name="574e865e-de9d-487f-a14b-6706327f3853">
+          <ID>Stock Actual</ID>
+          <Name>Stock Actual</Name>
+          <Source dwd:design-time-name="63777d7c-c297-4580-b0c7-dc45dca48bfa">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="beb233b9-04b8-4fcc-9e7c-fa577883fe85">
+              <TableID>dbo_Hechos_Inventario</TableID>
+              <ColumnID>StockActual</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="af78a446-8ec2-447d-911f-4392e7c6bb40">
+          <ID>Stock Minimo</ID>
+          <Name>Stock Minimo</Name>
+          <Source dwd:design-time-name="6e9633fa-fedb-46d3-9f8d-25d45166d5cd">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="8bcb737e-53db-4bea-9b4f-ff68f7054d51">
+              <TableID>dbo_Hechos_Inventario</TableID>
+              <ColumnID>StockMinimo</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="89107980-bd95-437e-ab0d-ec84cade2afc">
+          <ID>Valor Inventario</ID>
+          <Name>Valor Inventario</Name>
+          <Source dwd:design-time-name="65140023-4e0b-461e-ac0e-4adb25d66637">
+            <DataType>Double</DataType>
+            <Source xsi:type="ColumnBinding" dwd:design-time-name="9bc8c324-c81a-431f-9f9e-5750915f2fb8">
+              <TableID>dbo_Hechos_Inventario</TableID>
+              <ColumnID>ValorInventario</ColumnID>
+            </Source>
+          </Source>
+        </Measure>
+        <Measure dwd:design-time-name="016bd8a4-813c-410d-864b-695b171f4c7e">
+          <ID>Recuento Hechos Inventario</ID>
+          <Name>Recuento Hechos Inventario</Name>
+          <AggregateFunction>Count</AggregateFunction>
+          <Source dwd:design-time-name="94c53520-d186-496d-988c-ff21a31171b4">
+            <DataType>Integer</DataType>
+            <DataSize>4</DataSize>
+            <Source xsi:type="RowBinding" dwd:design-time-name="ebc6744d-6a7e-4b54-a094-1298076631e8">
+              <TableID>dbo_Hechos_Inventario</TableID>
+            </Source>
+          </Source>
+        </Measure>
+      </Measures>
+      <StorageMode>Molap</StorageMode>
+      <ProcessingMode>Regular</ProcessingMode>
+      <Dimensions>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="7518e7a4-13f5-417a-9b3a-067d0ff49ba2">
+          <CubeDimensionID>Dw Productos</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="1c1072fa-d56a-41f8-9172-5ab9a77e374f">
+              <AttributeID>Codigo Producto</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="fafcd18e-b5c6-4798-ac76-8ac07d71f4c3">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="d756a0ae-e404-442d-a985-c2564eddbb71">
+                    <TableID>dbo_Hechos_Inventario</TableID>
+                    <ColumnID>CodigoProducto</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="c76ab7de-1853-4f54-87ad-bdbe1e7a3dec">
+          <CubeDimensionID>Dw Categorias</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="b43bee43-ae92-426e-9e86-e7f457df2beb">
+              <AttributeID>Codigo Categoria</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="dcca4857-c015-4534-b0af-0bbe9afb416c">
+                  <DataType>Integer</DataType>
+                  <NullProcessing>UnknownMember</NullProcessing>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="b14ee68f-1a5a-4d8f-b9d6-2e850edaf897">
+                    <TableID>dbo_Hechos_Inventario</TableID>
+                    <ColumnID>CodigoCategoria</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="d2d9d88a-261a-49cf-ae01-4bcdd75f07cd">
+          <CubeDimensionID>Dw Tiempo</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="b50106bb-9e75-47ec-bdb7-73f56745b4ec">
+              <AttributeID>Codigo Tiempo</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="cbbde8b1-e049-4b54-b581-0882d00258d9">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="c3774269-7095-4af8-8ca1-0effe5f33f7f">
+                    <TableID>dbo_Hechos_Inventario</TableID>
+                    <ColumnID>CodigoTiempo</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+        <Dimension xsi:type="RegularMeasureGroupDimension" dwd:design-time-name="28a4740b-eaa4-4d67-ab94-b292846e221a">
+          <CubeDimensionID>Dw Unidades Medida</CubeDimensionID>
+          <Attributes>
+            <Attribute dwd:design-time-name="ed928245-2a91-4936-87cc-e206b1b589f4">
+              <AttributeID>Codigo Unidad</AttributeID>
+              <KeyColumns>
+                <KeyColumn dwd:design-time-name="bb79ce9e-c619-412d-9d9b-a25d82d6f23e">
+                  <DataType>Integer</DataType>
+                  <Source xsi:type="ColumnBinding" dwd:design-time-name="40979e97-ef77-4e2a-8493-3d6883f4a8cc">
+                    <TableID>dbo_Hechos_Inventario</TableID>
+                    <ColumnID>CodigoUnidad</ColumnID>
+                  </Source>
+                </KeyColumn>
+              </KeyColumns>
+              <Type>Granularity</Type>
+            </Attribute>
+          </Attributes>
+        </Dimension>
+      </Dimensions>
+      <Partitions />
+    </MeasureGroup>
+  </MeasureGroups>
+  <Source dwd:design-time-name="6e061d80-8567-4b4a-9ce1-9aa3cbd48874">
+    <DataSourceViewID>Cubo_Inventario</DataSourceViewID>
+  </Source>
+</Cube>

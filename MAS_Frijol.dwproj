@@ -8,12 +8,72 @@
   </Database>
   <Cubes>
     <ProjectItem>
-      <Name>Hehcos Ventas.cube</Name>
-      <FullPath>Hehcos Ventas.cube</FullPath>
+      <Name>Cubo_Ventas.cube</Name>
+      <FullPath>Cubo_Ventas.cube</FullPath>
       <Dependencies>
         <ProjectItem>
-          <Name>Hehcos Ventas.partitions</Name>
-          <FullPath>Hehcos Ventas.partitions</FullPath>
+          <Name>Cubo_Ventas.partitions</Name>
+          <FullPath>Cubo_Ventas.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Cubo_Compras.cube</Name>
+      <FullPath>Cubo_Compras.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Cubo_Compras.partitions</Name>
+          <FullPath>Cubo_Compras.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Cubo_Clientes.cube</Name>
+      <FullPath>Cubo_Clientes.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Cubo_Clientes.partitions</Name>
+          <FullPath>Cubo_Clientes.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Cubo_Produccion.cube</Name>
+      <FullPath>Cubo_Produccion.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Cubo_Produccion.partitions</Name>
+          <FullPath>Cubo_Produccion.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Cubo_Planilla.cube</Name>
+      <FullPath>Cubo_Planilla.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Cubo_Planilla.partitions</Name>
+          <FullPath>Cubo_Planilla.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Cubo_Inventario.cube</Name>
+      <FullPath>Cubo_Inventario.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Cubo_Inventario.partitions</Name>
+          <FullPath>Cubo_Inventario.partitions</FullPath>
+        </ProjectItem>
+      </Dependencies>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Cubo_Rentabilidad.cube</Name>
+      <FullPath>Cubo_Rentabilidad.cube</FullPath>
+      <Dependencies>
+        <ProjectItem>
+          <Name>Cubo_Rentabilidad.partitions</Name>
+          <FullPath>Cubo_Rentabilidad.partitions</FullPath>
         </ProjectItem>
       </Dependencies>
     </ProjectItem>
@@ -51,6 +111,30 @@
       <Name>Dw Ubicaciones.dim</Name>
       <FullPath>Dw Ubicaciones.dim</FullPath>
     </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Cargos Empleado.dim</Name>
+      <FullPath>Dw Cargos Empleado.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Proveedores.dim</Name>
+      <FullPath>Dw Proveedores.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Socios.dim</Name>
+      <FullPath>Dw Socios.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Ciclos.dim</Name>
+      <FullPath>Dw Ciclos.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Instituciones.dim</Name>
+      <FullPath>Dw Instituciones.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Dw Conceptos Pago.dim</Name>
+      <FullPath>Dw Conceptos Pago.dim</FullPath>
+    </ProjectItem>
   </Dimensions>
   <DataSources>
     <ProjectItem>
@@ -60,36 +144,32 @@
   </DataSources>
   <DataSourceViews>
     <ProjectItem>
-      <Name>Hechos_Clientes.dsv</Name>
-      <FullPath>Hechos_Clientes.dsv</FullPath>
+      <Name>Cubo_Ventas.dsv</Name>
+      <FullPath>Cubo_Ventas.dsv</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Hechos_Compras.dsv</Name>
-      <FullPath>Hechos_Compras.dsv</FullPath>
+      <Name>Cubo_Compras.dsv</Name>
+      <FullPath>Cubo_Compras.dsv</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Hechos_Inventario.dsv</Name>
-      <FullPath>Hechos_Inventario.dsv</FullPath>
+      <Name>Cubo_Clientes.dsv</Name>
+      <FullPath>Cubo_Clientes.dsv</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Hechos_Planilla.dsv</Name>
-      <FullPath>Hechos_Planilla.dsv</FullPath>
+      <Name>Cubo_Produccion.dsv</Name>
+      <FullPath>Cubo_Produccion.dsv</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Hechos_Produccion.dsv</Name>
-      <FullPath>Hechos_Produccion.dsv</FullPath>
+      <Name>Cubo_Planilla.dsv</Name>
+      <FullPath>Cubo_Planilla.dsv</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Hechos_Rentabilidad.dsv</Name>
-      <FullPath>Hechos_Rentabilidad.dsv</FullPath>
+      <Name>Cubo_Inventario.dsv</Name>
+      <FullPath>Cubo_Inventario.dsv</FullPath>
     </ProjectItem>
     <ProjectItem>
-      <Name>Hechos_Socios.dsv</Name>
-      <FullPath>Hechos_Socios.dsv</FullPath>
-    </ProjectItem>
-    <ProjectItem>
-      <Name>Hehcos Ventas.dsv</Name>
-      <FullPath>Hehcos Ventas.dsv</FullPath>
+      <Name>Cubo_Rentabilidad.dsv</Name>
+      <FullPath>Cubo_Rentabilidad.dsv</FullPath>
     </ProjectItem>
   </DataSourceViews>
   <Configurations>

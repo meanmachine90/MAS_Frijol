@@ -86,7 +86,6 @@
       <KeyColumns>
         <KeyColumn dwd:design-time-name="6c9ad948-4839-456d-b92c-c1345fe248c0">
           <DataType>Integer</DataType>
-          <NullProcessing>UnknownMember</NullProcessing>
           <Source xsi:type="ColumnBinding" dwd:design-time-name="214e7f8f-732b-48af-8b60-4ce9fed79304">
             <TableID>dbo_Dw_Categorias</TableID>
             <ColumnID>CodigoCategoria</ColumnID>
